@@ -2,6 +2,24 @@
 
 This Flutter project provides a quiz about Flutter with a visually appealing interface.
 
+Start Screen
+
+<img src="https://github.com/user-attachments/assets/b467ecbe-b6d4-4c3f-bc30-d65386c4f926" alt="Screenshot_1724672882" width="30%"/>
+
+<br>
+<br>
+
+Questions Screen
+
+<img src="https://github.com/user-attachments/assets/602023f8-3f99-47f1-8228-7ce6e005788c" alt="Screenshot_1724672893" width="30%"/>
+
+<br>
+<br>
+
+Results Screen
+
+<img src="https://github.com/user-attachments/assets/e6681f0b-c2e4-4cdb-9086-809c2bb20362" alt="Screenshot_1724672914" width="30%"/>
+
 ## Installation
 
 Follow these steps to set up and run the project locally:
