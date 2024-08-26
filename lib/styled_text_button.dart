@@ -1,23 +1,37 @@
-import 'package:quiz/styled_text.dart';
 import 'package:flutter/material.dart';
 
 const Color foregroundColor = Colors.white;
-const String text = 'Roll Dice';
+const Color textColor = Colors.white;
+const double textFontSize = 14.0;
 
 class StyledTextButton extends StatelessWidget {
-  const StyledTextButton(this.onPressedFunction, {super.key});
+  const StyledTextButton(this.onPressedFunction, this.text,
+      {super.key, this.iconData});
 
-  final VoidCallback onPressedFunction;
+  final void Function() onPressedFunction;
+  final IconData? iconData;
+  final String text;
 
   @override
   Widget build(BuildContext context) {
-    return TextButton(
+    return OutlinedButton.icon(
       onPressed: onPressedFunction,
-      style: TextButton.styleFrom(
+      style: OutlinedButton.styleFrom(
         foregroundColor: foregroundColor,
+        side: const BorderSide(
+          color: Colors.transparent,
+        ),
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.zero,
+        ),
       ),
-      child: const StyledText(
+      icon: Icon(iconData),
+      label: Text(
         text,
+        style: const TextStyle(
+          color: textColor,
+          fontSize: textFontSize,
+        ),
       ),
     );
   }

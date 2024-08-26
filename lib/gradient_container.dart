@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 const Alignment beginAlignment = Alignment.topLeft;
 const Alignment endAlignment = Alignment.bottomRight;
-const Color topLeftColor = Color.fromARGB(255, 63, 35, 111);
-const Color bottomRightColor = Colors.deepPurple;
+const Color topLeftColor = Color.fromARGB(255, 78, 13, 151);
+const Color bottomRightColor = Color.fromARGB(255, 107, 15, 168);
 
 class GradientContainer extends StatelessWidget {
   const GradientContainer(this.widget, {super.key});
